@@ -1,0 +1,96 @@
+.container__listen {
+ flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 66.4vh;  
+  overflow: visible;
+  
+  
+}
+.row__listen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.listen__title, .album__name {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.album__name {
+    font-size: 32px;
+   
+}
+
+.list__wrapper {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+}
+
+
+.list__over {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 64px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    text-align: left;   
+         
+}
+
+@media (max-width: 620px) {
+
+.container__listen {
+  
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  padding-bottom: 8px;
+}
+
+    .listen__title {
+        font-size: 32px;
+    }
+
+    .album__name {
+        font-size: 24px;
+    }
+
+    .speaker__para {
+        font-size: 16px;
+    }
+
+
+}
+
+@media (max-width: 445px) {
+
+     .listen__title {
+        font-size: 24px;
+    }
+
+    .album__name {
+        font-size: 20px;
+    }
+
+    .speaker__para {
+        font-size: 12px;
+    }
+
+
+}
