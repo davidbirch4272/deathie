@@ -4,12 +4,14 @@ import "./nav.css";
 import { FaRegWindowClose } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const Nav = (numberOfItems) => {
+const Nav = ({ numberOfItems }) => {
   function openMenu() {
-    document.body.classList += " menu--open";
+    console.log("Opening Menu")
+    document.body.classList.add("menu--open");
   }
 
   function closeMenu() {
+    console.log("Closing Menu")
     document.body.classList.remove("menu--open");
   }
 
