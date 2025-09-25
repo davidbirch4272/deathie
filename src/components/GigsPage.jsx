@@ -14,7 +14,6 @@ function GigsPage() {
       <section className="previous-gigs">
         <h2>Previous Gigs</h2>
 
-        {/* 2025 Porchfest */}
         <div className="gig-block">
           <h3 className="event__title">2025 Porchfest</h3>
           <div className="gig-row">
@@ -123,7 +122,6 @@ function GigsPage() {
           </div>
         </div>
 
-        {/* 2024 Porchfest */}
         <div className="gig-block">
           <h3 className="event__title">2024 Porchfest</h3>
           <div className="gig-row">

@@ -52,7 +52,7 @@
 .video-wrapper {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9; /* Adjust as needed */
+  aspect-ratio: 16 / 9; 
   background: #000;
   overflow: hidden;
   border-radius: 8px;
@@ -64,5 +64,5 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain; /* or 'contain' for full video in view */
+  object-fit: contain; 
 }

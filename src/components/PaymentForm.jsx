@@ -30,7 +30,7 @@ const PaymentForm = () => {
 
   const location = useLocation();
   const totalAmount = location.state?.total || 0;
-  const quantity = location.state?.quantity || 1;  // default 1 if not provided
+  const quantity = location.state?.quantity || 1;  
 
 
   useEffect(() => {
@@ -155,7 +155,7 @@ const PaymentForm = () => {
               onChange={(e) => {
                 const name = e.target.value;
                 setUserName(name);
-                setBillingName(name); // Autofill billing name from contact
+                setBillingName(name); 
               }}
             />
             <input
@@ -165,9 +165,8 @@ const PaymentForm = () => {
               required
             />
 
-            {/* Wrap billing and shipping in a flex container */}
             <div className="address-section">
-              {/* Billing block */}
+              
               <div className="address-block">
                 <h3>Billing Address</h3>
                 <input
@@ -215,7 +214,7 @@ const PaymentForm = () => {
                 </label>
               </div>
 
-              {/* Shipping block */}
+              
               <div className="address-block">
                 <h3>Shipping Address</h3>
                 <input
@@ -266,7 +265,6 @@ const PaymentForm = () => {
               </div>
             </div>
 
-            {/* Payment Section */}
             <div className="payment-section">
               <h3>Payment Details</h3>
               <CardElement className="payment-input" />

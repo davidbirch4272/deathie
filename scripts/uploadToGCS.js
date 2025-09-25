@@ -12,7 +12,6 @@ const storage = new Storage({
   keyFilename: process.env.GCS_KEY_FILE,
 });
 
-// map local folders → bucket names
 const bucketMap = {
   DeathiePictureFolder: 'deathie-pictures',
   DeathieMusicFolder: 'deathie-songs',
@@ -25,9 +24,8 @@ async function uploadFolder(localFolder, bucketName) {
 
   for (const file of files) {
     const localPath = path.join(localFolder, file);
-    const remotePath = file; // root of bucket, no subfolders
+    const remotePath = file; 
 
-    // check if file already exists in bucket
     const [exists] = await bucket.file(remotePath).exists();
     if (exists) {
       console.log(`⏭️  Skipped (already exists): ${remotePath}`);

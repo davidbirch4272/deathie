@@ -14,7 +14,7 @@ padding: 16px 60px;
 
 .band__wrapper {
   display: flex;
-  flex-wrap: wrap; /* allow wrapping on smaller screens */
+  flex-wrap: wrap; 
   justify-content: center;
   align-items: center;
   gap: 24px;
@@ -32,8 +32,8 @@ padding: 16px 60px;
 .picture img {
   width: 100%;
   max-width: 500px;
-  height: 500px;      /* ✅ fixed height */
-  object-fit: cover;  /* ✅ fill container cleanly */
+  height: 500px;     
+  object-fit: cover; 
   display: block;
 }
 
@@ -49,7 +49,7 @@ padding: 16px 60px;
 }
 
 
-/* Responsive handling */
+
 @media (max-width: 1001px) {
 .container__about {
     min-height: 80vh;
@@ -68,12 +68,12 @@ padding: 16px 60px;
 
   .picture img {
     width: 100%;
-    height: 500px;     /* ✅ still fixed height */
+    height: 500px;     
     object-fit: cover;
   }
 
   .band__text {
-    text-align: center; /* optional: center text for mobile */
+    text-align: center;
   }
 }
 

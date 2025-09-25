@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 const AudioContext = createContext();
 
 export const AudioProvider = ({ children }) => {
-  const audioRef = useRef(new Audio("https://storage.googleapis.com/deathie-songs/default-landing.wav")); // Set default
+  const audioRef = useRef(new Audio("https://storage.googleapis.com/deathie-songs/default-landing.wav")); 
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentSrc, setCurrentSrc] = useState(null);
 

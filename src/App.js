@@ -15,7 +15,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AudioProvider } from './components/AudioProvider.jsx';
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
-import Payments from './pages/Payments.jsx'; // we’ll create this next
+import Payments from './pages/Payments.jsx'; 
 
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY);
 
@@ -38,7 +38,7 @@ function App() {
 function changeQuantity(cd, quantity) {
   const updatedQuantity = +quantity;
   if (updatedQuantity <= 0) {
-    setCart(null); // Remove if quantity is 0
+    setCart(null); 
   } else {
     setCart({ ...cd, quantity: updatedQuantity });
   }
