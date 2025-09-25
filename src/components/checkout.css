@@ -150,4 +150,21 @@
   padding: 12px 0;
 }
 
+@media (max-width: 530px){
+.container__cd--checkout {
+ height: 70vh;
+ }
 
+}
+
+
+@media (max-width: 471px){
+.container__cd--checkout {
+ height: 82vh;
+ }
+
+ .cart__cd {
+  display: flex;
+  flex-direction: column;
+}  
+}
