@@ -14,6 +14,12 @@
   margin-bottom: 40px;
 }
 
+.where, .address, .message {
+margin: 12px;
+font-size: 18px;  
+font-weight: 600;
+}
+
 .event__title {
   margin-bottom: 8px; 
 }
