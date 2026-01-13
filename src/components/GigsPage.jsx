@@ -8,10 +8,12 @@ function GigsPage() {
 
       <section className="upcoming-gigs">
         <h2>Up And Coming Gigs</h2>
-        <p className="where">The Midway Cafe</p>
-        <p className="address">3496 Washington Street</p>
-        <p className="address">Boston, Ma 02130</p>  
-        <p className="message">Doors Open at 07:30pm and we will be on stage at 10:20 pm!</p>
+        <p className="where">The Jungle</p>
+        <p className="address">6 Sanborn Court</p>
+        <p className="address">Somerville, Ma 02143</p>  
+        <p className="message">Gigs start at 6pm!</p>
+
+        <p>We are planning another night out with Deathie in April.....Stay Tuned!</p>
         <p className="message">Hope you can join us!!</p>
 
       </section>
