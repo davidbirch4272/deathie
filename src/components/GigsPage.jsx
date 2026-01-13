@@ -13,7 +13,7 @@ function GigsPage() {
         <p className="address">Somerville, Ma 02143</p>  
         <p className="message">Gigs start at 6pm!</p>
 
-        <p>We are planning another night out with Deathie in April.....Stay Tuned!</p>
+        <p classname="where">We are planning another night out with Deathie in April.....Stay Tuned!</p>
         <p className="message">Hope you can join us!!</p>
 
       </section>
