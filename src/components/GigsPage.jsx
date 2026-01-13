@@ -11,7 +11,7 @@ function GigsPage() {
         <p className="where">The Jungle</p>
         <p className="address">6 Sanborn Court</p>
         <p className="address">Somerville, Ma 02143</p>  
-        <p className="message">Gigs start at 6pm!</p>
+        <p className="message">Tuesday, March 24th.  Gigs start at 6pm!</p>
 
         <p className="message">We are planning another night out with Deathie in April.....Stay Tuned!</p>
         <p className="message">Hope you can join us!!</p>
